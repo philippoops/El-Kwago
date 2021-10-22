@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secware</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/1d32728fff.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="elkwago.png" width="125px" />
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="">Home</a></li>
+            <li><a href="">Product</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Account</a></li>
+          </ul>
+        </nav>
+        <img src="shopingbag.svg" width="30px" height="30px">
+        <img src="menu.png" class="menu-icon"
+        onclick="menutoggle()">
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <h1>One Stop Shop For Your<br> Health and Nutritions</h1>
+          <p>Unlock your potential with great nourishment. Eating Healthy for a Good Family.</p>
+          <a href="" class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+          <img class="sexy-girl" src="sexy.png">
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Featured Categories -->
+  <div class="categories">
+    <div class="row">
+      <div class="col-3">
+        <img src="usana/image1.png">
+      </div>
+      <div class="col-3">
+        <img src="usana/image2.png">
+      </div>
+      <div class="col-3">
+        <img src="usana/image3.png">
+      </div>
+    </div>
+  </div>
+  <!-- Featured Product -->
+  <div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="usana/image4.png">
+        <h4>USANA: PROFLAVANOL</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      <div class="col-4">
+        <img src="usana/image5.png">
+        <h4>USANA: MAGNECAL D</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>$30.00</p>
+      </div>
+      <div class="col-4">
+        <img src="usana/image6.png">
+        <h4>USANA: PROBIOTICS</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>$20.00</p>
+      </div>
+      <div class="col-4">
+        <img src="usana/image7.png">
+        <h4>USANA: CELLSENTIALS</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>$35.00</p>
+      </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="usana/image4.png">
+        <h4>USANA: PROFLAVANOL</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      <div class="col-4">
+        <img src="usana/image5.png">
+        <h4>USANA: MAGNECAL D</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>$30.00</p>
+      </div>
+      <div class="col-4">
+        <img src="usana/image6.png">
+        <h4>USANA: PROBIOTICS</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>$20.00</p>
+      </div>
+      <div class="col-4">
+        <img src="usana/image7.png">
+        <h4>USANA: CELLSENTIALS</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>$35.00</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <img src="usana/image8.png">
+        <h4>SHOPEE: MR.FEVER</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      <div class="col-4">
+        <img src="usana/image9.png">
+        <h4>SHOPEE: GS PILLOW</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>$30.00</p>
+      </div>
+      <div class="col-4">
+        <img src="usana/image10.png">
+        <h4>SHOPEE: HUSKY PILLOW</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>$20.00</p>
+      </div>
+      <div class="col-4">
+        <img src="usana/image11.png">
+        <h4>GEPARD: CHEETAH HOODIE</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>$35.00</p>
+      </div>
+    </div>
+  </div>
+  <!-- Offer -->
+  <div class="offer">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-5">
+          <img class="offer-img" src="hoodie.png">
+
+        </div>
+        <div class="offer-pro col-5">
+          <p>Exclusive Available on El Kwago</p>
+          <h1>Rockstar Gepard Hoodie</h1>
+          <p class="small">A wardrobe staple, the Rockstar Gepard Pullover Hoodie combines classic style with the soft comfort of fleece.</p>
+          <a href="" class="btn">Buy Now &#8594;</a>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- Testimonials -->
+  <div class="testimonials">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <i class="fas fa-quote-left"></i>
+          <p>The Cellsentials is very important to me to detox my body.</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <img src="edz.jpg">
+          <h3>Edelyn Cruz</h3>
+        </div>
+        <div class="col-3">
+          <i class="fas fa-quote-left"></i>
+          <p>The German Sheppard Pillow is very Comfortable.</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <img src="miggy.jpg">
+          <h3>Miggy Williams</h3>
+        </div>
+
+        <div class="col-3">
+          <i class="fas fa-quote-left"></i>
+          <p>Solid hoodie for both indoor and outdoor place. Comfortable too!</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <img src="arabo.png">
+          <h3>Edward Wallace</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ---------Brands---------- -->
+<div class="brands">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-6">
+        <img src="lazadacoth-iconn.png">
+      </div>
+      <div class="col-6">
+        <img src="shopifyLogo.png">
+      </div>
+      <div class="col-6">
+        <img src="shopeesg-logo2.png">
+      </div>
+      <div class="col-6">
+        <img src="elkwago.png">
+      </div>
+      <div class="col-6">
+        <img src="secwareonly.png">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- -------------Footer------------ -->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download Our App</h3>
+        <p>Download App for Android and ios mobile phone.</p>
+        <div class="app-logo">
+          <img src="play-store.png">
+          <img src="app-store.png">
+        </div>
+      </div>
+      <div class="footer-col-2">
+        <img class="footer-logo" src="elkwago.png" alt="">
+        <p>Our purpose is to subtainably make the pleasure and benefits of sports accesible to many.</p>
+      </div>
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>Coupons</li>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3>Follow Us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Instagram</li>
+          <li>Twitter</li>
+          <li>YouTube</li>
+        </ul>
+      </div>
+    </div>
+      <hr>
+      <p class="Copyright">Copyright 2021 - Elkwago</p>
+  </div>
+  </div>
+<!-- -------------js for toggle menu--------- -->
+<script>
+  var MenuItems = document.getElementById("MenuItems");
+
+  MenuItems.style.maxHeight = "0px";
+  function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+    {
+        MenuItems.style.maxHeight = "200px";
+    }
+    else
+    {
+      MenuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+</body>
+</html>
